@@ -1,6 +1,5 @@
-points = [[1,1],[3,4],[-1,0]]
-points2 = [[3,2],[-2,2]]
-
+points = [[1, 1], [3, 4], [-1, 0]]
+points2 = [[3, 2], [-2, 2]]
 '''
 Algorithm: https://en.wikipedia.org/wiki/Chebyshev_distance
 
@@ -12,7 +11,8 @@ Learnt: abs - absolute value of a number, can use this to work out distance
             
     We can use this to find the distance between point x and y, if you need a negative value, * - 1 after abs: 
             print(abs(x - y) * -1) # output: -2
-''' 
+'''
+
 
 def chebsyhevDistance(coords):
     ans = 0
@@ -21,9 +21,7 @@ def chebsyhevDistance(coords):
         target_x, target_y = coords[i + 1]
         ans += max(abs(target_x - curr_x), abs(target_y - curr_y))
     return ans
-            
-            
+
 
 print(f"Value should be 7, Value is: {chebsyhevDistance(points)} ")
 print(f"Value should be 5, Value is: {chebsyhevDistance(points2)} ")
-

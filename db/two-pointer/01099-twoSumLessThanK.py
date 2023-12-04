@@ -11,9 +11,10 @@ def twoSumLessThanK(nums, k):
             left += 1
     return max_sum
 
-nums1 = [34,23,1,24,75,33,54,8]
+
+nums1 = [34, 23, 1, 24, 75, 33, 54, 8]
 n1 = 60
-nums2 = [10,20,30]
+nums2 = [10, 20, 30]
 n2 = 15
 
 print(twoSumLessThanK(nums1, n1))
