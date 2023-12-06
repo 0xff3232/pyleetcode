@@ -1,5 +1,3 @@
-# main is used for current problem, move to directory once complete :-)
-
 nums = [3,2,2,3] 
 
 val = 3
