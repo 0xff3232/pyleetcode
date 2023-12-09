@@ -5,3 +5,5 @@ from .removeElement.solutions import RemoveElement
 from .evenDigitsOfInt.solutions import EvenDigitsOfInt
 from .sortedSquares.solutions import SortedSquares
 from .minimumTimeToPoints.solutions import MinimumTimeToPoints
+from .nAndDoubleExist.solutions import NandDoubleExist
+from .validMoutainArray.solutions import ValidMoutainArray

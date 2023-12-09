@@ -6,6 +6,8 @@ from .funWithArrays.removeElement.solutions import RemoveElement
 from .funWithArrays.evenDigitsOfInt.solutions import EvenDigitsOfInt
 from .funWithArrays.sortedSquares.solutions import SortedSquares
 from .funWithArrays.minimumTimeToPoints.solutions import MinimumTimeToPoints
+from .funWithArrays.nAndDoubleExist.solutions import NandDoubleExist
+from .funWithArrays.validMoutainArray.solutions import ValidMoutainArray
 
 # misc
 from .calculateMoneyInBank.solutions import CalculateMoneyInBank
