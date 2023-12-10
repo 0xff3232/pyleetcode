@@ -14,3 +14,4 @@ from .calculateMoneyInBank.solutions import CalculateMoneyInBank
 from .largestOddNumInStr.solutions import LargestOddNumInStr
 from .largestThreeDigitInStr.solutions import LargestThreeDigitInStr
 from .twoSumLessThanK.solutions import TwoSumLessThanK
+from .transposeMatrix.solutions import TransposeMatrix

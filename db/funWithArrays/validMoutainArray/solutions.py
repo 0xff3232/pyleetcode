@@ -4,6 +4,8 @@ class ValidMoutainArray():
         pass
 
     def solution1(self, arr):
+        pass
+    
 
     # redo solution
 
